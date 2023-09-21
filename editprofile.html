@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#D4DDCC]">
+    <header class="bg-[#4D732A] py-4 px-4">
+      <div class="flex justify-between md:hidden">
+        <img src="images/Chevron Left.png" alt="" class="w-4 h-4" />
+        <img src="images/Menu.png" alt="" class="w-4 h-4" />
+      </div>
+      <div
+        class="hidden md:flex justify-end items-center gap-6 text-white text-sm"
+      >
+        <a href="" class="font-semibold">Home</a>
+        <a href="" class="font-semibold">About</a>
+        <a href="" class="font-semibold">Services</a>
+        <a href="" class="font-semibold">Contact Us</a>
+        <img src="images/desktop-user-profile.png" alt="" class="w-8 h-8" />
+      </div>
+    </header>
+
+    <section class="px-4 py-12 md:px-24">
+      <!-- --------------Main Area---------------- -->
+      <div class="block md:flex gap-32">
+        <div class="relative mb-4 pl-8 w-40">
+          <img
+            src="images/amaka.jpg"
+            alt=""
+            class="w-28 h-28 rounded-full object-cover"
+          />
+          <img
+            src="images/camera.png"
+            alt="camera"
+            class="w-12 h-12 absolute left-24 -bottom-4 md:bottom-8"
+          />
+        </div>
+        <div class="flex flex-col gap-3 hidden md:block">
+          <h3 class="mb-4"><strong>ABOUT ME</strong></h3>
+          <textarea
+            class="block w-96 rounded-sm shadow-md px-2 py-1 h-32"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center md:items-start">
+        <!-- -----------Input Section----------- -->
+        <div
+          class="flex flex-col py-12 gap-12 md:grid grid-cols-3 md:gap-8 md:items-center md:w-full"
+        >
+          <div class="flex flex-col gap-3">
+            <h3><strong>USERNAME</strong></h3>
+            <input
+              type="password"
+              id="password"
+              placeholder="Your Username"
+              class="block w-96 md:w-[80%] rounded-sm shadow-md px-2 py-1"
+            />
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <h3><strong>AGE</strong></h3>
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Age"
+              class="block w-96 md:w-[80%] rounded-sm shadow-md px-2 py-1"
+            />
+          </div>
+
+          <div class="flex flex-col gap-3 mr-8">
+            <h3><strong>EMAIL</strong></h3>
+            <input
+              type="password"
+              id="password"
+              placeholder="Your Email"
+              class="block w-96 md:w-[80%] rounded-sm shadow-md px-2 py-1"
+            />
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <h3><strong>CITY</strong></h3>
+            <input
+              type="password"
+              id="password"
+              placeholder="City"
+              class="block w-96 md:w-[80%] rounded-sm shadow-md px-2 py-1"
+            />
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3><strong>STATE</strong></h3>
+            <input
+              type="password"
+              id="password"
+              placeholder="State"
+              class="block w-96 md:w-[80%] rounded-sm shadow-md px-2 py-1"
+            />
+          </div>
+          <div class="flex flex-col gap-3 md:hidden">
+            <h3><strong>ABOUT ME</strong></h3>
+            <textarea
+              class="block w-96 rounded-sm shadow-md px-2 py-1 h-32"
+            ></textarea>
+          </div>
+
+          <button
+            class="hidden md:block font-semibold text-center text-white bg-[#295700] rounded-md py-1 mt-8 w-[70%]"
+          >
+            SAVE
+          </button>
+        </div>
+        <div class="mt-8 flex md:hidden">
+          <button
+            class="block w-32 font-semibold text-center text-white bg-[#295700] py-1 rounded-md md:ml-64"
+          >
+            SAVE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#4D732A] mt-8 md:mt-0 relative py-4">
+      <div
+        class="hidden absolute bottom-0 right-6 md:flex flex-col items-end w-full"
+      >
+        <img src="images/triangle.png" alt="triangle" class="w-8 h-12" />
+      </div>
+      <div class="flex justify-around bg-[#4D732A] md:hidden">
+        <img src="images/Home.png" alt="home" class="w-[25px] h-[30px]" />
+        <img
+          src="images/resoureces-light.png"
+          alt="resources"
+          class="w-[25px] h-[30px]"
+        />
+        <img
+          src="images/community-light-sm.png"
+          alt="community-sm"
+          class="w-[25px] h-[30px]"
+        />
+        <img
+          src="images/therapy-light.png"
+          alt="therapy-light"
+          class="w-[25px] h-[30px]"
+        />
+        <img src="images/profile-light.png" alt="" class="w-[25px] h-[30px]" />
+      </div>
+
+      <div
+        class="text-white px-8 py-2 hidden md:flex justify-between items-center"
+      >
+        <div>
+          <h2 class="font-semibold">THRIVE</h2>
+          <a href="/" class="block text-sm py-1">About Us</a>
+          <a href="/" class="block text-sm py-1">Contact Us</a>
+          <a href="/" class="block text-sm py-1">Help and Support</a>
+        </div>
+
+        <div>
+          <h2 class="font-semibold">SOCIAL</h2>
+          <a href="/" class="block text-sm py-1">Facebook</a>
+          <a href="/" class="block text-sm py-1">Instagram</a>
+          <a href="/" class="block text-sm py-1">Twitter</a>
+        </div>
+
+        <div>
+          <h2 class="font-semibold">SERVICES</h2>
+          <a href="/" class="block text-sm py-1">Resources</a>
+          <a href="https://thrive-kappa.vercel.app/" class="block text-sm py-1"
+            >Relaxation</a
+          >
+          <a
+            href="https://my-tiidelab-repo-ge9z-git-main-tijesurejoice.vercel.app/"
+            class="block text-sm py-1"
+            >Therapy</a
+          >
+        </div>
+
+        <div>
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="mr-0 px-2 py-1 rounded-tl-sm rounded-bl-sm"
+          />
+          <button
+            class="text-white bg-[#295700] -ml-4 px-4 py-1 rounded-tr-sm rounded-br-sm"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <p class="text-center text-white py-2 hidden md:block">
+        copyright &copy;2023 thrive.techtribe. All right reserved
+      </p>
+    </footer>
+  </body>
+</html>
